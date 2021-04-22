@@ -26,3 +26,4 @@ print ("El resultado de la division", dividir)
 elevar = numeroX ** numeroY
 print ("El resultado del exponente", elevar)
 
+s

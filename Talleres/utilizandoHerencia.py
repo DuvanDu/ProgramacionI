@@ -1,3 +1,5 @@
-import TallerHerencias as un
+import TallerHerencias as moldes
 
-short = un.Nutricionista(1007256260,'Duvan',22,'CES')
+biomedico = moldes.Medico(1007256260,'Duvan',22,'Cirujano')
+biomedico.caminar(22)
+biomedico.hablar('esto es una prueba')

@@ -22,7 +22,7 @@ class Medico(Persona):
     def diagnostico(self, nombreEnfermedad):
         print (f'Hola soy {self.nombre}{self.especialidad} y procedo a tratar dicha enfermedad {nombreEnfermedad}')
 
-class Nutricionista (Persona):
+class Nutricionista(Persona):
     
     def __init__(self, idEntrada, nombreEntrada, edadEntrada, universidadEntrada):
         Persona.__init__(self, idEntrada, nombreEntrada, edadEntrada)
