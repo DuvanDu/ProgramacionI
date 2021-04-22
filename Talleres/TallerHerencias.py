@@ -20,7 +20,7 @@ class Medico(Persona):
         self.especialidad = especialidadEntrada
     
     def diagnostico(self, nombreEnfermedad):
-        print (f'Hola soy {self.nombre}{self.especialidad} y procedo a tratar dicha enfermedad {nombreEnfermedad}')
+        print (f'Hola soy {self.nombre} de {self.especialidad} y procedo a tratar su {nombreEnfermedad}')
 
 class Nutricionista(Persona):
     
