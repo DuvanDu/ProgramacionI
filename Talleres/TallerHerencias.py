@@ -34,4 +34,4 @@ class Nutricionista(Persona):
         peso = float (input (preguntaPeso))
         altura = float (input (preguntaAltura))
         imc = peso /(altura **2)
-        print (f'Hola soy {self.nombre} egresado de {self.universidad} y procedo a informarle que su IMC es de {imc}')
+        print (f'Hola soy {self.nombre} egresado del {self.universidad} y procedo a informarle que su IMC es de {imc}')
