@@ -15,7 +15,8 @@ class Persona():
             print(f'Hola soy {self.nombre} y he dado {i+1} pasos')
 
 class Medico(Persona):    
-    def __init__(self, especialidadEntrada):
+    def __init__(self, idEntrada, nombreEntrada, edadEntrada, especialidadEntrada):
+        Persona.__init__(self, idEntrada, nombreEntrada, edadEntrada)
         self.especialidad = especialidadEntrada
     
     def diagnostico(self, nombreEnfermedad):
@@ -23,7 +24,8 @@ class Medico(Persona):
 
 class Nutricionista (Persona):
     
-    def __init__(self, universidadEntrada):
+    def __init__(self, idEntrada, nombreEntrada, edadEntrada, universidadEntrada):
+        Persona.__init__(self, idEntrada, nombreEntrada, edadEntrada)
         self.universidad = universidadEntrada
     
     def IMC(self):
