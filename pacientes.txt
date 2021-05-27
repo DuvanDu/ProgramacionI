@@ -1,0 +1,2 @@
+Archivo de pacientes
+nombre:Mu�eca enfermedad: cristales en el ri�on precio: 20000
